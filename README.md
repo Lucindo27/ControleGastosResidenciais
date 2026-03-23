@@ -10,7 +10,7 @@ O sistema permite cadastro de pessoas, categorias e transações financeiras, al
 - **Persistência:** SQL Server
 - **Ferramentas:** Git, Visual Studio, VSCode e SQL Server Management Studio
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 ```text
 ├── backend/Controllers     # WebAPI em .NET
 │   ├── Data/               # Persistência de dados
