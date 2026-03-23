@@ -11,7 +11,7 @@ O sistema permite cadastro de pessoas, categorias e transações financeiras, al
 **Ferramentas:** Git, Visual Studio, VSCode e SQL Server Management Studio
 
 Estrutura do Projeto
-
+```text
 ├── backend/Controllers     # WebAPI em .NET
 │   ├── Data/               # Persistência de dados
 │   │   └── Script.sql     # Script para criação do banco e suas respectivas tabelas
@@ -25,9 +25,9 @@ Estrutura do Projeto
 │   │   ├── App.css     # Estilização das telas
 │   │   └── App.tsx
 └── └── package.json
+```
 
 ## Como Executar o projeto
-## Como Executar o Projeto
 
 ### 1. Configurar o banco de dados
 1. Acesse a pasta `backend/Data`
@@ -40,6 +40,5 @@ Só rodar o projeto no Visual Studio (Ctrl + F5) após criar o banco com Script.
 ### 3. Rodar o frontend
 1. Clique com o botão direito na pasta `frontend` e selecione **"Open in Integrated Terminal"** no VSCode.  
 2. No terminal aberto, execute o comando:
-
 ```bash
 npm run dev
