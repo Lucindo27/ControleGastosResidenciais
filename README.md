@@ -14,7 +14,7 @@ O sistema permite cadastro de pessoas, categorias e transações financeiras, al
 ```text
 ├── backend/Controllers     # WebAPI em .NET
 │   ├── Data/               # Persistência de dados
-│   │   └── Script.sql     # Script para criação do banco e suas respectivas tabelas
+│   │   └── Script.sql      # Script para criação do banco e suas respectivas tabelas
 │   ├── Models/             # Modelos de dados
 │   ├── Services/           # Lógica de negócio
 │   └──                     # Endpoints da API
