@@ -1,0 +1,28 @@
+CREATE DATABASE ControleGastos;
+GO
+
+USE ControleGastos;
+GO
+
+CREATE TABLE Pessoa (
+    Id INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(200) NOT NULL,
+    Idade INT NOT NULL
+);
+
+CREATE TABLE Categorias (
+    Id INT PRIMARY KEY IDENTITY,
+    Descricao NVARCHAR(400) NOT NULL,
+    Finalidade NVARCHAR(MAX) NOT NULL
+);
+
+CREATE TABLE Transacao (
+    Id INT PRIMARY KEY IDENTITY,
+    Descricao NVARCHAR(400) NOT NULL,
+    Valor DECIMAL(18,2) NOT NULL,
+    Tipo NVARCHAR(MAX) NOT NULL,
+    IdPessoa INT NOT NULL,
+    IdCategoria INT NOT NULL, 
+    FOREIGN KEY (IdPessoa) REFERENCES Pessoa(Id),
+    FOREIGN KEY (IdCategoria) REFERENCES Categorias(Id)
+);
