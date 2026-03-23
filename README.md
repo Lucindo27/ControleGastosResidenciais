@@ -5,12 +5,10 @@ Solução fullstack com backend em C#/.NET e frontend em React com TypeScript, d
 O sistema permite cadastro de pessoas, categorias e transações financeiras, além de consultas de totais por pessoas.
 
 ## Tecnologias utilizadas
-```text
-**Backend:** C# com .NET (WebAPI)
-**Frontend:** React + TypeScript
-**Persistência:** SQL Server
-**Ferramentas:** Git, Visual Studio, VSCode e SQL Server Management Studio
-```
+- **Backend:** C# com .NET (WebAPI)
+- **Frontend:** React + TypeScript
+- **Persistência:** SQL Server
+- **Ferramentas:** Git, Visual Studio, VSCode e SQL Server Management Studio
 
 Estrutura do Projeto
 ```text
